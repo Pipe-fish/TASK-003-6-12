@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.loop {
+    position: relative;
+    margin: 30px auto;
+    width: 600px;
+    height: 300px;
+}
+
+#wrap {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+}
+
+#slider {
+    width: 300%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    margin-left: 0;
+    animation: slide1 3s ease-out infinite;
+}
+
+#slider li {
+    float: left;
+    width: 600px;
+    height: 100%;
+}
+
+#slider img {
+    width: 600px;
+    height: 100%;
+}
+
+@keyframes slide1 {
+    0% {
+        margin-left: 0;
+    }
+
+    23% {
+        margin-left: 0;
+    }
+
+    33% {
+        margin-left: -600px;
+    }
+
+    56% {
+        margin-left: -600px;
+    }
+
+    66% {
+        margin-left: -1200px;
+    }
+
+    90% {
+        margin-left: -1200px;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes slide2 {
+    0% {
+        margin-left: -600px;
+    }
+
+    23% {
+        margin-left: -600px;
+    }
+
+    33% {
+        margin-left: -1200px;
+    }
+
+    56% {
+        margin-left: -1200px;
+    }
+
+    66% {
+        margin-left: 0;
+    }
+
+    90% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -600px;
+    }
+}
+
+@keyframes slide3 {
+    0% {
+        margin-left: -1200px;
+    }
+
+    23% {
+        margin-left: -1200px;
+    }
+
+    33% {
+        margin-left: 0;
+    }
+
+    56% {
+        margin-left: 0;
+    }
+
+    66% {
+        margin-left: -600px;
+    }
+
+    90% {
+        margin-left: -600px;
+    }
+
+    100% {
+        margin-left: -1200px;
+    }
+}
+
+#first:checked~#wrap #slider {
+    animation-name: slide1;
+}
+
+#second:checked~#wrap #slider {
+    animation-name: slide2;
+}
+
+#third:checked~#wrap #slider {
+    animation-name: slide3;
+}
+
+#first:active~#wrap #slider {
+    animation-name: none;
+    margin-left: 0;
+}
+
+#second:active~#wrap #slider {
+    animation-name: none;
+    margin-left: -600px;
+}
+
+#third:active~#wrap #slider {
+    animation-name: none;
+    margin-left: -1200px;
+}
+
+#btn {
+    right: 0;
+    margin: auto;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+}
+
+label{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background: #cccccc;
+    opacity: 0.7;
+    text-align: center;
+}
+
+#first,
+#second,
+#third {
+    display: none;
+}

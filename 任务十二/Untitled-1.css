@@ -1,0 +1,76 @@
+table{
+    margin: 0 auto;
+}
+table tr:nth-child(odd) {
+    background: rgb(185, 185, 185);
+}
+
+table tr:nth-child(even) {
+    color: red;
+}
+
+table td:nth-child(odd) {
+    color: black;
+}
+
+table tr:nth-child(1) td:nth-child(1n+0) {
+    color: white;
+    background: black;
+}
+
+table tr:nth-child(2) td:nth-child(1n+0) {
+    color: red;
+}
+
+table tr:nth-child(3) td:nth-child(1n+0) {
+    color: red;
+}
+
+table tr:nth-child(4) td:nth-child(1n+0) {
+    color: red;
+}
+
+.div1 {
+    width: 100%;
+}
+
+.input {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    transition: all 3s;
+}
+
+.input:hover {
+    width: 50%;
+}
+
+.input:focus {
+    width: 50%;
+}
+
+
+.div2 {
+    margin: 30px auto;
+    width: 600px;
+    height: 300px;
+    animation: myfirst 3s infinite;
+}
+
+@keyframes myfirst {
+    0%,33.3%{
+        background: green;
+    }
+    33.4%{
+        background: white;
+    }
+    33.5%,66.6% {
+        background-image: linear-gradient(to right,green 50%,blue 50%);
+    }
+    66.7%{
+        background: white;
+    }
+    66.8%,100% {
+        background: blue;
+    }
+}

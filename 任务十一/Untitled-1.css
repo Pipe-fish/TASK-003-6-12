@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+.top {
+    width: 100%;
+}
+
+.top-top {
+    background: #90d4dd;
+    position: relative;
+}
+
+.top-top-zi-x {
+    color: #fff;
+    position: absolute;
+
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+    padding: 10px 0;
+}
+
+.top-top-zi-d {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.top-daohang-zi {
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-img {
+    clear: both;
+    width: 100%;
+}
+
+.top-biaoqian-img {
+    padding: 10px;
+    width: 20%;
+    height: 190px;
+    float: left;
+    margin: 0 auto;
+}
+
+.top-biaoqian-zi {
+    width: 20%;
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.top-fenlan {
+    clear: both;
+    margin: 0 auto;
+    width: 95%;
+    padding: 30px 0;
+    display: flex;
+    border-top: rgb(187, 187, 187) solid 2px;
+}
+
+.top-fenlan-1 {
+    width: 33.33%;
+    border-right: rgb(187, 187, 187) solid 2px;
+}
+
+.top-fenlan-1-img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-fenlan-zi-d {
+    margin: 0;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.top-fenlan-zi-x {
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(146, 146, 146);
+}
+
+.mk1 {
+    border-top: rgb(235, 235, 235) solid 30px;
+    width: 100%;
+}
+
+.mk1-1 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.mk1-zi {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mk1-2 {
+    border-top: solid rgb(235, 235, 235) 2px;
+}
+
+.mk1-td {
+    width: 33.33%;
+    background: rgb(235, 235, 235);
+    text-align: center;
+    font-size: 28px;
+}
+
+.mk1-img {
+    width: 80%;
+}
+
+.end-div {
+    width: 95%;
+    margin: 0 auto;
+    clear: both;
+    border-top: solid 2px rgb(235, 235, 235);
+    position: relative;
+}
+
+.end-img-1 {
+    width: 30%;
+    padding: 10px;
+}
+
+.end-dw-1 {
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+
+.end-dw-2 {
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+.end-img-2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+.end-zi-d {
+    padding: 0 10px;
+    font-size: 29px;
+}
+
+.end-zi-x {
+    padding: 0 10px;
+    color: rgb(212, 211, 211);
+}
+
+.end-zi-x-1 {
+    padding: 0 10px;
+    clear: both;
+    color: rgb(212, 211, 211);
+}
